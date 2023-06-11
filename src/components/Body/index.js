@@ -1,4 +1,9 @@
 import SlideShow from "@/components/SlideShow";
+import WarrantySlide from "../WarrantySlide";
+import FeaturedSlide from "../FeaturedSlide";
+import DiscountOffer from "../DiscountOffer";
+import NewsLetter from "../NewsLetter";
+
 
 const Body = () => {
   const slides = [
@@ -24,8 +29,13 @@ const Body = () => {
     },
   ];
   return (
-    <div className="flex min-h-screen flex-col items-center">
+    <div className="flex min-h-screen font-Montserrat flex-col items-center lg:px-24 md:px-14 px-6">
       <SlideShow slides={slides} />
+      <WarrantySlide />
+      <FeaturedSlide />
+      <DiscountOffer />
+      <NewsLetter />
+      
     </div>
   );
 };

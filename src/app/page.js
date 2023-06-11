@@ -1,7 +1,6 @@
 "use client";
 
 import Body from "@/components/Body";
-import Header from "@/components/Header";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -20,7 +19,6 @@ export default function Home() {
 
   return (
     <>
-      <Header />
       <Body />
     </>
   );

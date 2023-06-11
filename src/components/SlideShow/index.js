@@ -29,9 +29,9 @@ const SlideShow = ({ slides }) => {
     setCurrentIndex(index);
   };
   return (
-    <div className="font-Montserrat flex justify-center lg:px-24 md:px-14 px-6 relative">
-      <div className="w-full lg:h-[480px] md:h-[380px] h-[320px] bg-slate-500 rounded-md flex flex-col items-center relative">
-        <div className="w-full h-full my-0 mx-auto overflow-hidden bg-red-400 rounded-md">
+    <div className="font-Montserrat flex justify-center relative ">
+      <div className="w-full lg:h-[480px] md:h-[380px] h-[320px] bg-slate-500 rounded-md flex flex-col items-center relative shadow shadow-black">
+        <div className="w-full h-full my-0 mx-auto overflow-hidden rounded-md">
           <div
             className="whitespace-nowrap ease-in-out transition-all h-full"
             style={{
