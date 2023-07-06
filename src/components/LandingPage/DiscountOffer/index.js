@@ -7,6 +7,7 @@ const DiscountOffer = () => {
       <div className="relative col-span-4 rounded-l-lg">
         <Image
           fill
+          sizes="large"
           src="https://img.freepik.com/free-photo/top-view-composition-different-traveling-elements_23-2148884942.jpg?w=740&t=st=1686499608~exp=1686500208~hmac=b1b84057130c65bc013e548d63f37bc4f8c34d58060ed9cd185d7d2cfd9af7fd"
           alt="offer"
           className="rounded-l-lg"

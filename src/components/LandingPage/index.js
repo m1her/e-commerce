@@ -1,11 +1,12 @@
-import SlideShow from "@/components/SlideShow";
-import WarrantySlide from "../WarrantySlide";
-import FeaturedSlide from "../FeaturedSlide";
-import DiscountOffer from "../DiscountOffer";
-import NewsLetter from "../NewsLetter";
+
+import WarrantySlide from "./WarrantySlide";
+import FeaturedSlide from "./FeaturedSlide";
+import DiscountOffer from "./DiscountOffer";
+import NewsLetter from "./NewsLetter";
+import SlideShow from "./SlideShow";
 
 
-const Body = () => {
+const LandingPage = () => {
   const slides = [
     {
       url: "https://img.freepik.com/free-photo/embracing-trendy-fashionable-couple-isolated-white-studio-background-caucasian-woman-man-posing-basic-minimal-stylish-clothes-concept-relations-fashion-beauty-love-copyspace_155003-36673.jpg",
@@ -39,4 +40,4 @@ const Body = () => {
     </div>
   );
 };
-export default Body;
+export default LandingPage;

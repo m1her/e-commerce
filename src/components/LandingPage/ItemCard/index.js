@@ -5,7 +5,7 @@ const ItemCard = (props) => {
   return (
     <div className="w-[30%] font-Montserrat">
       <div className="relative lg:h-[420px] md:h-[320px] sm:h-[260px] h-[200px] rounded-lg shadow-md ">
-        <Image src={props.img} fill className="absolute rounded-lg" />
+        <Image alt="item" src={props.img} fill sizes="small" className="absolute rounded-lg" />
         {props.sale && (
           <div className="bg-red-600 rounded m-4 px-2 py-1 text-white sm:text-sm text-xs absolute">
             SALE

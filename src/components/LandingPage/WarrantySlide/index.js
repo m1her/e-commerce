@@ -12,7 +12,7 @@ const WarrantySlide = () => {
           We ensure our customers have the best shopping experience
         </div>
       </div>
-      <div className="w-full grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-8 md:gap-y-6 gap-y-6 mt-8 md:place-items-start place-items-center">
+      <div className="w-full grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-8 md:gap-y-6 gap-y-6 mt-8 md:place-items-start place-items-start">
         <div className="md:w-full w-72">
           <div className="w-14 h-14 rounded-lg bg-gray-300 flex justify-center items-center">
             <CheckIcon width={25} height={25} />

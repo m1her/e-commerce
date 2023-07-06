@@ -77,13 +77,13 @@ const FeaturedSlide = () => {
           }}
         >
           <div className="w-full h-full inline-flex justify-between">
-            {products.slice(0, 3).map((product) => (
-              <ItemCard key="index" img={product.img} sale={product.sale} price={product.price} discount={product.discount} />
+            {products.slice(0, 3).map((product, index) => (
+              <ItemCard key={index} img={product.img} sale={product.sale} price={product.price} discount={product.discount} />
             ))}
           </div>
           <div className="w-full h-full inline-flex justify-between">
-            {products.slice(3).map((product) => (
-              <ItemCard key="index" img={product.img} sale={product.sale} price={product.price} discount={product.discount}/>
+            {products.slice(3).map((product, index) => (
+              <ItemCard key={index} img={product.img} sale={product.sale} price={product.price} discount={product.discount}/>
             ))}
           </div>
         </div>

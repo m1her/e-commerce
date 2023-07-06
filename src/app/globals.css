@@ -4,3 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  /* Custom styles for the arrows */
+  /* Example styles: */
+  background-color: #ffff; /* Change background color */
+  border-radius: 10; /* Remove border radius */
+  color: #ffff; /* Change arrow color */
+  /* Add any other desired styles */
+}

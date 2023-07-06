@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="h-0.5 bg-gray-300 mb-7 mt-2"/>
-      <div className="w-full text-center text-sm font-medium my-2 text-gray-400">Copyright ©2023 FakeStore. All right reserved</div>
+      <div className="w-full text-center md:text-sm text-xs font-medium my-2 text-gray-400">Copyright ©2023 FakeStore. All right reserved</div>
     </footer>
   );
 };
